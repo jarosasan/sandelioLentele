@@ -21,7 +21,7 @@ function addToList() {
     td2.innerHTML = document.getElementById('desc').value;
     td3.innerHTML = document.getElementById('cont').value;
     td4.innerHTML = document.getElementById('price').value;
-    td5.innerHTML = div_date;
+    td5.innerHTML = div_date.getFullYear() + '-' + (div_date.getMonth()+1) + '-' + div_date.getDate();
 
 }
 document.getElementById('add').addEventListener('click', addToList);
