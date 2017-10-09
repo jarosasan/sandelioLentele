@@ -10,9 +10,56 @@
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
-<h1>Hello, world!</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md8">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Codas</th>
+                    <th>Pavadinimas</th>
+                    <th>Aprasymas</th>
+                    <th>Kiekis</th>
+                    <th>Kaina</th>
+                    <th>Data</th>
+                </tr>
+                </thead>
+                <tbody id="row">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md4">
+            <form>
+                <div class="form-group">
+                    <label class="form-control-label" for="formGroupExampleInput">Example label</label>
+                    <input type="text" class="form-control" id="code" placeholder="Example input">
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="formGroupExampleInput2">Another label</label>
+                    <input type="text" class="form-control" id="name" placeholder="Another input">
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="formGroupExampleInput2">Another label</label>
+                    <input type="text" class="form-control" id="desc" placeholder="Another input">
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="formGroupExampleInput2">Another label</label>
+                    <input type="text" class="form-control" id="cont" placeholder="Another input">
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="formGroupExampleInput2">Another label</label>
+                    <input type="text" class="form-control" id="price" placeholder="Another input">
+                </div>
+
+                <button type="button" class="btn btn-primary " id="add">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 <!-- Optional JavaScript -->
+<script src="script.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
